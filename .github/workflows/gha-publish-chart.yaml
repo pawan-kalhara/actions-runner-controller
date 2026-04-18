@@ -313,3 +313,4 @@ jobs:
           echo "- Ref: ${{ steps.resolve_parameters.outputs.resolved_ref }}" >> $GITHUB_STEP_SUMMARY
           echo "- Short SHA: ${{ steps.resolve_parameters.outputs.short_sha }}" >> $GITHUB_STEP_SUMMARY
           echo "- gha-runner-scale-set-experimental Chart version: ${{ env.GHA_RUNNER_SCALE_SET_CHART_VERSION_TAG }}" >> $GITHUB_STEP_SUMMARY
+#fefefef
